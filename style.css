@@ -1,0 +1,62 @@
+body{
+  margin: 0px;
+}
+
+.head{
+  color:red;
+  background-color:yellow;
+  border:10;
+  border-radius:50px;
+  font-weight:"bold";
+  font-size:25px;
+  font-family:sans-serif;
+  border:solid;
+  border-color:black;
+  margin:5px;
+  padding:15px;
+}
+
+.information{
+  color:blue;
+  font-weight:"bold";
+  font-size:20px;
+  font-family:sans-serif;
+  margin-top:10px;
+  background-color:pink;
+  
+  padding:15px;
+}
+
+h2{
+  color:green;
+}
+
+.imageballons{
+  flex:1;
+  justify-content:space-between;
+  padding:15px;
+}
+
+.restaurant{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding:15px;
+  margin-bottom:10px;
+  font-size:25px;
+  color:rebeccapurple;
+  background-color:rgb(102, 201, 119);
+  justify-content: space-between;
+}
+
+.restaurant h3{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding:15px;
+  font-size:25px;
+  background-color:rebeccapurple;
+  color:rgb(102, 201, 119);
+  justify-content: space-between;
+}
+
+.restaurant img:hover{
+  transform:scale(1.1,1.1);
+}
+
